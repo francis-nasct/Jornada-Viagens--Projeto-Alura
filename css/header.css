@@ -31,6 +31,10 @@ nav {
   display: none;
 }
 
+.list-links {
+  list-style: none;
+}
+
 .list-links li {
   margin: 16px 0;
 }
@@ -38,4 +42,31 @@ nav {
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
+  font-weight: var(--menu-text-weight);
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-menu {
+    margin-top: 0;
+    width: 467px;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .navigation-menu ul li {
+    margin: 0;
+  }
 }
