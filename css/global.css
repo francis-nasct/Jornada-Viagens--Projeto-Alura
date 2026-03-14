@@ -39,4 +39,45 @@ button {
 
 body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.button {
+  display: inline-block;
+  color: var(--text-secondary-color);
+  background-color: var(--secondary-color);
+  width: 280px;
+  height: 64px;
+  text-decoration: none;
+  line-height: 64px;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
