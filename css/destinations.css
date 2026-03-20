@@ -5,3 +5,17 @@
   padding: 0;
   margin-bottom: 24px;
 }
+
+.destination-itens .img-item.tokyo {
+  width: 312px;
+  height: 360px;
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.destination-itens .img-item.osaka {
+  width: 312px;
+  height: 360px;
+  background: url(../img/osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+}
