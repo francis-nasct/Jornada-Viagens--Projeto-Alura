@@ -1,0 +1,34 @@
+.image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "header1 header2"
+    "footer footer";
+  height: 460px;
+  margin-top: 24px;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+
+.bag {
+  grid-area: header1;
+  width: 100%;
+  height: 254px;
+  background: url(../img/bg-bag-mobile.png) no-repeat;
+}
+
+.passport {
+  grid-area: header2;
+  width: 100%;
+  height: 254px;
+  background: url(../img/bg-passport-mobile.png) no-repeat;
+}
+
+.people {
+  grid-area: footer;
+  width: 100%;
+  height: 182px;
+  background: url(../img/bg-people-mobile.png) no-repeat;
+  background-size: cover;
+}
