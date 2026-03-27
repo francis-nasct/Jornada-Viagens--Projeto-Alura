@@ -24,14 +24,8 @@
   margin-bottom: 24px;
 }
 
-.offers-card .card header p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-}
-
 .offers-card .card header h3 {
   font-size: 40px;
-  font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
 
