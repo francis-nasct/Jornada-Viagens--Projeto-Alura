@@ -22,7 +22,7 @@
   gap: 24px;
 }
 
-.testimonials-container footer .profile-content h4 {
+.testimonials-container footer .profile-content h3 {
   font-size: 20px;
   font-weight: var(--title-weight);
   line-height: 32px;
