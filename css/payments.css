@@ -26,6 +26,39 @@
   grid-column: span 2;
 }
 
+/*pacote de viagens*/
+.travel-packages .section-title h2 {
+  font-size: 32px;
+}
+
+.travel-packages .content-container .text-content h2 {
+  font-size: 40px;
+  margin: 32px 0 24px;
+}
+
+.travel-packages .content-container .text-content p {
+  margin-bottom: 24px;
+}
+
+.travel-packages .content-container .image-gallery .image.first {
+  background: url(../img/travel-packages/gallery-first-image.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .content-container .image-gallery .image.second {
+  background: url(../img/travel-packages/gallery-second-image.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .content-container .image-gallery .image.thirdy {
+  background: url(../img/travel-packages/gallery-tertiary-image.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/bg-bag-tablet-desk.png) no-repeat;
