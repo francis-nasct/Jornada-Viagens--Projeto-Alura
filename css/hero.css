@@ -24,7 +24,7 @@
 }
 
 /*pacotes de viagens*/
-.travel-packages .hero-img {
+.travel-packages.hero .hero-img {
   height: 458px;
   background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
   background-size: cover;
@@ -54,6 +54,12 @@
   font-weight: var(--text-weight);
   color: var(--text-secondary-color);
   line-height: 32px;
+}
+
+.travel-packages.bottom-hero .hero-img {
+  background: url(../img/travel-packages/travel-package-bottom-hero.png)
+    no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
