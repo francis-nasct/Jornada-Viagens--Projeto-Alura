@@ -79,6 +79,19 @@
     background: url(../img/bg-pre-rodape-tablet-desk.png) no-repeat;
     background-size: cover;
   }
+
+  /*pacotes de viagens*/
+  .travel-packages.hero .hero-img {
+    height: 620px;
+  }
+
+  .travel-packages .hero-content {
+    padding: 210px 69px 108px 120px;
+  }
+
+  .travel-packages .hero-content p {
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -96,10 +109,22 @@
     background: url(../img/bg-pre-rodape-tablet-desk.png) no-repeat;
     background-size: cover;
   }
+
+  /*pacotes de viagens*/
+  .travel-packages.hero .hero-img {
+    height: 620px;
+    background: url(../img/travel-packages/japan-bg-hero-desk.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .hero h2 {
     padding: 88px 160px;
+  }
+
+  /*pacotes de viagens*/
+  .travel-packages.hero .hero-content {
+    padding: 210px 741px 210px 120px;
   }
 }
