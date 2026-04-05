@@ -44,4 +44,8 @@
   .testimonials-container {
     flex-direction: row;
   }
+
+  .testimonials .section-title hr {
+    margin: 0px auto 64px;
+  }
 }
