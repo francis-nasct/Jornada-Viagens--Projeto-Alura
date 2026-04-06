@@ -35,8 +35,17 @@
   line-height: 32px;
 }
 
+/*Pacote de Viagens*/
+.testimonials .section-title h2 {
+  font-size: 32px;
+}
+
 @media screen and (min-width: 1440px) {
   .testimonials-container {
     flex-direction: row;
+  }
+
+  .testimonials .section-title hr {
+    margin: 16pxpx auto 64px;
   }
 }

@@ -7,6 +7,7 @@
 .hero .hero-img {
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero h2 {
@@ -21,6 +22,48 @@
 .bottom-hero .hero-img {
   background: url(../img/bg-pre-rodape-mobile.png) no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+/*pacotes de viagens*/
+.travel-packages.hero .hero-img {
+  height: 458px;
+  background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 88px;
+}
+
+.travel-packages .hero-content {
+  padding: 65px 24px;
+}
+
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.travel-packages .hero-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  color: var(--text-secondary-color);
+  line-height: 32px;
+}
+
+.travel-packages.bottom-hero .hero-img {
+  background: url(../img/travel-packages/travel-package-bottom-hero.png)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -28,6 +71,7 @@
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .hero h2 {
@@ -39,6 +83,27 @@
     height: 400px;
     background: url(../img/bg-pre-rodape-tablet-desk.png) no-repeat;
     background-size: cover;
+    background-position: center;
+  }
+
+  /*pacotes de viagens*/
+  .travel-packages.hero .hero-img {
+    height: 620px;
+  }
+
+  .travel-packages .hero-content {
+    padding: 210px 69px 108px 120px;
+  }
+
+  .travel-packages .hero-content p {
+    font-size: 32px;
+  }
+
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/travel-packages/travel-package-bottom-hero-tablet-desk.png)
+      no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
@@ -46,6 +111,7 @@
   .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .hero h2 {
@@ -56,11 +122,25 @@
     height: 600px;
     background: url(../img/bg-pre-rodape-tablet-desk.png) no-repeat;
     background-size: cover;
+    background-position: center;
+  }
+
+  /*pacotes de viagens*/
+  .travel-packages.hero .hero-img {
+    height: 620px;
+    background: url(../img/travel-packages/japan-bg-hero-desk.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero h2 {
     padding: 88px 160px;
+  }
+
+  /*pacotes de viagens*/
+  .travel-packages.hero .hero-content {
+    padding: 210px 741px 210px 120px;
   }
 }
