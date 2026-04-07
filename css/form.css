@@ -1,0 +1,61 @@
+.form .hero-content {
+  padding: 0 24px;
+}
+
+.form .hero-content h2 {
+  font-size: 32px;
+  color: var(--text-primary-color);
+  font-weight: var(--title-weight);
+}
+
+.form .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 56px;
+}
+
+.form .hero-content p {
+  font-size: 16px;
+  font-weight: var(--text-weight);
+  color: var(--text-primary-color);
+  line-height: 32px;
+  margin-bottom: 56px;
+}
+
+.form input {
+  width: 100%;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  border-style: none;
+  border-bottom: 3px solid var(--secondary-color);
+  font-size: 20px;
+  margin-bottom: 64px;
+  font-family: "Montserrat";
+}
+
+.form label {
+  font-size: 20px;
+  color: var(--text-primary-color);
+}
+
+.form textarea {
+  width: 100%;
+  min-height: 90px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
+  margin: 8px 0 32px;
+}
+
+.form button {
+  color: var(--text-secondary-color);
+  background-color: var(--secondary-color);
+  min-width: 264px;
+  height: 64px;
+  line-height: 64px;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  border-radius: 16px;
+  text-align: center;
+}

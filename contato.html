@@ -64,5 +64,39 @@
         </div>
       </div>
     </section>
+
+    <section class="form">
+      <div class="hero-content">
+        <h2>Preencha o formulário:</h2>
+        <hr />
+        <p class="content-text">
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
+
+        <form class="form-data">
+          <input type="text" name="userName" id="name" placeholder="Seu nome" />
+          <br />
+          <input
+            type="number"
+            name="userNumber"
+            id="number"
+            pattern="[0-9]{11}"
+            placeholder="Telefone"
+          />
+          <br />
+          <input type="email" name="userEmail" id="email" placeholder="Email" />
+          <br />
+          <label for="topic">Assunto</label>
+          <br />
+          <textarea name="userTopic" id="topic"></textarea>
+          <br />
+          <button type="submit">Enviar!</button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
