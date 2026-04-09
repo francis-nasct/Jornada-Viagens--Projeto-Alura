@@ -16,12 +16,20 @@
   margin: 0 99px 16px;
 }
 
-.main-footer p {
+.main-footer .footer-content p {
   color: var(--text-secondary-color);
   font-size: 16px;
   line-height: 28px;
   font-weight: var(--text-weight);
   margin-bottom: 8px;
+}
+
+.main-footer .footer-social p {
+  color: var(--text-secondary-color);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  margin: 32px 0 16px;
 }
 
 @media screen and (min-width: 768px) {
