@@ -145,6 +145,27 @@
     background-size: cover;
     background-position: center;
   }
+
+  /*contact*/
+  .contact.hero .hero-img {
+    height: 620px;
+  }
+
+  .contact .hero-content {
+    padding: 183px 95px;
+  }
+
+  .contact .hero-content p {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+
+  .contact.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/contact/contact-botton-hero-tablet.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -172,6 +193,20 @@
     background-size: cover;
     background-position: center;
   }
+
+  /*contact*/
+  .contact.hero .hero-img {
+    background: url(../img/contact/hero-contact-desk.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/contact/contact-botton-hero-desk.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -182,5 +217,10 @@
   /*pacotes de viagens*/
   .travel-packages.hero .hero-content {
     padding: 210px 741px 210px 120px;
+  }
+
+  /*contact*/
+  .contact .hero-content {
+    padding: 210px 741px 155px 120px;
   }
 }
